@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+        <h1>Simple Calculator</h1>
+         <form action = "/add" method="post" id="calculator">
+            <h2>To get Sum</h2>
+            <input type="text" name="num1" id="num1">
+            <input type="text" name="num2" id="num2">
+            <button type="submit">Add</button>
+        </form>
+        
+        <form action="/sub" method="post">
+            <h2>To get Substraction</h2>
+            <input type="text" name="num1" id="">
+            <input type="text" name="num2" id="">
+            <button type="submit">Substract</button>
+        </form> 
+
+        <form action="/multiply" method="post">
+            <h2>To get Multiplication</h2>
+            <input type="text" name="num1" id="">
+            <input type="text" name="num2" id="">
+            <button type="submit">multiply</button>
+        </form> 
+        <form action="/divide" method="post">
+            <h2>To get Division</h2>
+            <input type="text" name="num1" id="">
+            <input type="text" name="num2" id="">
+            <button type="submit">Divide</button>
+        </form> 
+    
+    </div>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <form action="/default" method="POST">
+        <input type="text" name="num1" value=""/>
+        <input type="text" name="num2" value=''/>
+        <button type="submit"  formaction="/add">Addition</button>
+        <button type="submit" formaction="/sub">Subtraction</button>
+        <button type="submit"  formaction="/multiply">Multiplication</button>
+        <button type="submit"  formaction="/div">Division</button>
+    </form>
+</body>
+</html>
