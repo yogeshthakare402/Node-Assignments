@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "kill-port": "^2.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  }
+}
+
